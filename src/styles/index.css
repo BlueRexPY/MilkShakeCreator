@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  background-color: #1E3932;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.homeShak{
+  position: absolute;
+  top: 80%; 
+  left: 52%;                       
+  transform: translate(-50%, -50%);
+  width: 750px;
+  z-index: -1;
+  animation: shake 4s;
+}
+
+.recipe{
+  position: absolute;
+  top: 120%; 
+  left: 50%;   
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 30vh;
+} 
+.ingredients{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  top: 180%; 
+  left: 50%;   
+  transform: translate(-50%, -50%);
+  width: 140vh;
+  height: 80vh;
+}
+
+.homeIngredients{
+  width: 500px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  transition: 0.3s;
+}
+
+::-webkit-scrollbar-track {
+  background: #1E3932;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #006241;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00734d;
+}
+
+.homeButton{
+  margin-top: 100px;
+  transform: scale(1.7);
+  animation: homeButton 4s;
+}
+.link{
+  text-decoration: none;
+}
+
+.big{
+  transform: scale(1.2);
+}
+
+.shake{
+  position: absolute;
+  top: 39%; 
+  left: 75%;   
+  transform: translate(-50%, -50%);
+}
+
+#tubule{
+  opacity: 0;
+}
+#shakeButton{
+  position: absolute;
+  top: 90%; 
+  left: 92%;
+  opacity: 0;   
+  transform: scale(200%);
+}
+
+#shakeText{
+  position: absolute;
+  text-transform: capitalize;
+  top: 90%; 
+  left: 50%; 
+  opacity: 0;  
+  transform: translate(-50%, -50%);
+}
+
+#toHomeButton{
+  position: absolute;
+  top: 93%; 
+  left: 94%; 
+  transform: scale(200%);
+}
+
+#box1{
+  position: absolute;
+  top: -55%;
+  left: 45%; 
+}
+#box2{
+  position: absolute;
+  top: -55%; 
+  left: 43.7%; 
+}
+.createButton{
+  transform: scale(1.5);
+}
+.h1{
+  animation: h1 4s;
+}
+
+.h2{
+  animation: h2 4s;
+}
+
+
+@keyframes h1 {
+  0% { opacity: 0;}
+  20% { opacity: 0;}
+  30% { opacity: 1; }
+}
+@keyframes h2 {
+  0% { opacity: 0;}
+  25% { opacity: 0;}
+  35% { opacity: 1; }
+}
+@keyframes homeButton {
+  0% { opacity: 0;}
+  30% { opacity: 0;}
+  40% { opacity: 1; }
+}
+@keyframes shake {
+  0% { opacity: 0;}
+  35% { opacity: 0;}
+  45% { opacity: 1; }
+}
