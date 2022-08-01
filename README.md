@@ -10,8 +10,11 @@ MilkShake Creator - created with: <br>
 <img src="https://img.shields.io/badge/anime.js-D9342E.svg?style=for-the-badge&logo=anime.js&logoColor=white"><br>
 **application for creating a variety of milkshakes**
 
-**link on video**
+**link on video and site**
 
+<a target="_blank" href="https://milk-shake-creator-9axjilf8f-bluerexpy.vercel.app/">
+    <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
 <a target="_blank" href="https://youtu.be/Gp-yVzvBLtg">
     <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white"/>
 </a>
