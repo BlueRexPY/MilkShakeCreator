@@ -14,10 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <ThemeProvider theme={theme}>
-
-        <AppRouter login={login}/>
-        
-        
+        <AppRouter login={login}/>  
       </ThemeProvider>
     </BrowserRouter>
   );
